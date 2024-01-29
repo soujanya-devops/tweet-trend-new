@@ -14,7 +14,6 @@ environment {
                 sh 'mvn clean deploy'
             }
         }
-<<<<<<< HEAD
     
     stage('SonarQube analysis') {
     environment {
@@ -26,7 +25,5 @@ environment {
     }
     }
   }
-=======
->>>>>>> 16867f57b46d3759e2a01e2f8a0d15595856951f
 }
 }
