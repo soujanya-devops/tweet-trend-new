@@ -14,11 +14,7 @@ environment {
                 sh 'mvn clean deploy'
             }
         }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 3faf254634093d2d455e309ae2d22e2661c25565
-    stage('SonarQube analysis') {
+stage('SonarQube analysis') {
     environment {
       scannerHome = tool 'valaxy-sonar-scanner'
     }
